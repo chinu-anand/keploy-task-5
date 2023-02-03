@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Death Note",
+        "genre": "Thriller",
+        "rating": 9.8
+    },
+    {
+        "name": "Attack on Titan",
+        "genre": "Action",
+        "rating": 10
+    },
+    {
+        "name": "Naruto",
+        "genre": "Action",
+        "rating": 9.8
+    },
+    {
+        "name": "One Piece",
+        "genre": "Adventure",
+        "rating": 10
+    },
+    {
+        "name": "Demon Slayer",
+        "genre": "Adventure",
+        "rating": 9.5
+    }
+]

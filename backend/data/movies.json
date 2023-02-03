@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Spirited Away",
+        "genre": "Adventure",
+        "rating": "9.2"
+    },
+    {
+        "name": "Your Name",
+        "genre": "Romance",
+        "rating": "8.9"
+    },
+    {
+        "name": "Weathering With You",
+        "genre": "Slice of Life",
+        "rating": "9"
+    },
+    {
+        "name": "My Neighbour Totoro",
+        "genre": "Fantasy",
+        "rating": "9.4"
+    },
+    {
+        "name": "Jujustu Kaisen 0",
+        "genre": "Action",
+        "rating": "8.8"
+    }
+]

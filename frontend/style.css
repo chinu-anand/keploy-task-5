@@ -1,0 +1,49 @@
+body {
+    background-image: url('wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    filter: brightness(40%);
+    object-fit: cover;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.box {
+    width: 60vw;
+    height: 75vh;
+    background: rgba(39, 24, 24, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    overflow-wrap: normal;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.content-box {
+    padding-top: 1rem;
+    height: 40vh;
+    overflow: hidden;
+}
+
+#output {
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+}
