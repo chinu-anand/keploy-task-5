@@ -5,8 +5,9 @@ body {
 }
 
 .box {
+    height: auto;
+    min-height: 60vh;
     width: 60vw;
-    height: 75vh;
     background: rgba(39, 24, 24, 0.35);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(4px);
@@ -20,8 +21,12 @@ body {
 
 .content-box {
     padding-top: 1rem;
-    height: 40vh;
+    height: auto;
     overflow: hidden;
+}
+
+.content-box {
+    text-align: left;
 }
 
 #output {
