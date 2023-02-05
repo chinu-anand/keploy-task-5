@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const animeSchema = new mongoose.Schema(
+const movieSchema = new mongoose.Schema(
     {
         name: {
             type: 'String',
@@ -11,4 +11,4 @@ const animeSchema = new mongoose.Schema(
     }
 )
 
-module.exports = mongoose.model('anime', animeSchema);
+module.exports = mongoose.model('movie', movieSchema);

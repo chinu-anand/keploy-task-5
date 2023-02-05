@@ -1,29 +1,22 @@
 const express = require('express');
 const cors = require('cors');
-const fs = require('fs');
-const path = require('path');
+
+const anime = require('./routes/anime');
+const movie = require('./routes/movie');
+
 const connectdb = require('./database/connectdb');
 
-const port = 8000;
+const PORT = 8000;
 
 connectdb();
+
 const app = express();
-
 app.use(express.json());
-app.use(cors())
+app.use(cors());
 
-app.listen(port, () => {
-    console.log(`server started on port ${port}`);
+app.listen(PORT, () => {
+    console.log(`Server started on port: ${PORT}`);
 });
 
-app.get('/movielist', (req, res) => {
-    fs.readFile(__dirname + '/data/' + 'movies.json', (err, data) => {
-        res.end(data);
-    })
-})
-
-app.get('/animelist', (req, res) => {
-    fs.readFile(__dirname + '/data/' + 'anime.json', (err, data) => {
-        res.end(data);
-    })
-})
+app.use('/', anime);
+app.use('/', movie);
